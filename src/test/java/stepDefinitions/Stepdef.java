@@ -70,7 +70,7 @@ public class Stepdef extends BaseClass
 	 driver.manage().window().maximize();
 	}
 
-	@When("User enters Email as {string} and Password as {string}")
+	@When("User enters Email  {string} and Password as {string}")
 	public void user_enters_Email_as_and_Password_as(String email, String password) {
 		logger.info("************* Prvding user and password *****************");
 		lp.setUserName(email);
